@@ -1,0 +1,43 @@
+@keyframes moveInLeft {
+  0% {
+    opacity: 0; /* animate only opacity and transform for performance reasons */
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0; /* animate only opacity and translate for performance reasons */
+    transform: translateX(10px);
+  }
+
+  80% {
+    transform: translateX(-1px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0; /* animate only opacity and translate for performance reasons */
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

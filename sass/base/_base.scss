@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; /* box-sizing is not inherited by default */
+}
+
+html {
+  font-size: 62.5%; /* to accomodate font-size change by user, take percentage */
+}
+
+body {
+  box-sizing: border-box;
+}
