@@ -1,6 +1,5 @@
 .row {
   max-width: $grid-width; // 1140px is standard pactice now a days
-  background-color: #eee;
   margin: 0 auto; // center align block element in a block element
 
   &:not(:last-child) {
@@ -10,8 +9,7 @@
   @include clearfix;
 
   [class^="col-"] {
-    // attribute selector , all col starting with 'col'
-    background-color: orangered;
+    // attribute selector , all classes starting with 'col'
     float: left;
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
