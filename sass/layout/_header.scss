@@ -10,6 +10,7 @@
   background-size: cover; /* sets width to be equal to parents */
   background-position: top; /* top of the image always at the top, bottom, left or right can be cropped */
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   &__logo-box {
     position: absolute;
